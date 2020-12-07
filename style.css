@@ -99,6 +99,7 @@ input:focus{
 .change{
     justify-content: center;
     align-items: center;
+     margin-left: 10%;
 }
 
 @media only screen and (max-width:500px){
@@ -131,6 +132,8 @@ input:focus{
     }
     .change{
         font-size: small;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media only screen and (max-width:300px){
@@ -163,5 +166,7 @@ input:focus{
     }
     .change{
         font-size: smaller;
+        justify-content: center;
+        align-items: center;
     }
 }
