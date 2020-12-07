@@ -134,6 +134,7 @@ input:focus{
         font-size: small;
         justify-content: center;
         align-items: center;
+        margin-left: 10%;
     }
 }
 @media only screen and (max-width:300px){
@@ -168,5 +169,6 @@ input:focus{
         font-size: smaller;
         justify-content: center;
         align-items: center;
+        margin-left: 10%;
     }
 }
