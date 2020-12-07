@@ -8,12 +8,12 @@
 </head>
 <body>
 
-    <div >
-        <form class="search-city">
+    <div class="search-city">
+       
             <input type="search" placeholder="Search City" class="search-input" required autocomplete="off"/>
             <br>
             <button class="search-button">Search</button>
-        </form>
+        
     </div>
 
     <div class="location">
@@ -21,15 +21,18 @@
             <h1 class="location-timezone">------</h2>
             <h2 class="location-city">--------</h2>
          </div>
-        <canvas id="icon1" class="icon" width="128" height="128">------</canvas>
+        <canvas  class="icon" width="128" height="128">------</canvas>
     </div>
-
+    <h3 class = "change">click on the temp to change to CELSIUS or FAHRENHEIT</h3>
     <div class="temprature">
         <div class="degree-section">
             <h1 class="temprature-degree">---</h1>
-            <span>F</span>
+            <span>℉</span> 
          </div> 
-        <div class="temprature-description"> ----</div>
+         
+         <span>todays climate : </span>
+         <div class="temprature-description"> ----</div>
+        
     </div>
 
     <script src="skycons.js"></script>
