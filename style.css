@@ -96,6 +96,10 @@ input{
 input:focus{
     outline: none;
 }
+.change{
+    justify-content: center;
+    align-items: center;
+}
 
 @media only screen and (max-width:500px){
     .search-button{
