@@ -57,13 +57,13 @@ const getweather = async (city)=>
         let celcius = (temperature - 32) + (5/9);
 
         temperaturesection.addEventListener("click", ()=> {
-            if(temperaturespan.textContent === "F"){
-                temperaturespan.textContent = "C";
+            if(temperaturespan.textContent === "℉"){
+                temperaturespan.textContent = "℃";
                 tempraturedegree.textContent = Math.floor(celcius);
             } else {
-                    temperaturespan.textContent = "F";
-                    tempraturedegree.textContent = temperature;
-                   }
+                temperaturespan.textContent = "℉";
+                tempraturedegree.textContent = temperature;
+            }
         });
 
         
